@@ -1,7 +1,6 @@
 import json
 
 
-
 def extract_bookmarks_using_dfs(bookmarks_file_path, output_file_path):
     with open(bookmarks_file_path, 'r', encoding='utf-8') as file:
         bookmarks_data = json.load(file)
